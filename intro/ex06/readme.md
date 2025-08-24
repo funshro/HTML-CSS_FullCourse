@@ -1,0 +1,1 @@
+This exercise is actually a challenge to modify some of the previous exercises, pick up the codes and put them into a html tag, and do the same with CSS code. Creating a path and a title. 

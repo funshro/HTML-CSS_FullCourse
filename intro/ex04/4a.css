@@ -1,13 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
-    <style>
-        
-        .backpage button{
+.backpage button{
             padding: 10px;
         }
 
@@ -60,37 +51,3 @@
             margin-left: 0px;
             margin-right: 0px;
         }
-
-
-    </style>
-</head>
-<body>
-    
-    <div class="backpage">
-        <button style="margin-right: 7px;">Back</button>
-        <a href="#">1</a>
-        <a href="#">2</a>
-        <a href="#">3</a>
-        <a href="#">4</a>
-        <a href="#">5</a>
-        <button style="margin-left: 7px;">Next</button>
-    </div>
-
-    <hr>
-
-    <button id="stretch-button">Stretch</button>
-
-    <hr>
-
-    <button id="shadow-button">Shadow</button>
-
-    <hr>
-
-    <div id="order-buttons">
-        <button>One</button>
-        <button>Two</button>
-        <button>Three</button>
-    </div>
-
-</body>
-</html>

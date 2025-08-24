@@ -1,11 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        .uber{
+.uber{
           background-color: #000;
           color: #fff;
           width: 120px;
@@ -116,25 +109,3 @@
           background-color: rgba(10, 102, 194, 0.329);
           border: 2px solid;
         }
-
-    </style>
-</head>
-<body>
-    <p>Uber</p>
-    <button class="uber">Request now</button> 
-    <hr>
-    <p>Amazon</p>
-    <button class="amazon">Add to Cart</button>
-    <hr>
-    <p>GitHub</p>
-    <button class="github">Sign up</button>
-    <hr>
-    <p>Bootstrap</p>
-    <button class="bootstrap1">Get started</button>
-    <button class="bootstrap2">Download</button>
-    <hr>
-    <p>LinkedIn</p>
-    <button class="linkedin1">Apply on company website</button>
-    <button class="linkedin2">Save</button>
-</body>
-</html>
