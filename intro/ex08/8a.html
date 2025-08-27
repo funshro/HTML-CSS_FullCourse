@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Displays property</title>
+    <style>
+      #name-input,
+      #email-input {
+        font-size: 20px;
+        padding: 5px;
+        display: block;
+        margin-top: 10px;
+      }
+
+      p {
+        width: 200px;
+        display: inline-block;
+        vertical-align: middle;
+      }
+
+      div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      #search-google {
+        border: none;
+        border-radius: 20px;
+        outline: none;
+        width: 50%;
+        padding: 15px 0px 15px 15px;
+        box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.4);
+      }
+
+      img {
+        width: 200px;
+      }
+    </style>
+  </head>
+  <body>
+    <input type="text" name="" id="name-input" placeholder="Name" />
+    <input type="text" name="" id="email-input" placeholder="E-mail" />
+    <hr />
+    <p>
+      Thanks for chatting with our customer support. Would you like to take our
+      quick survey?
+    </p>
+    <button>Yes</button>
+    <button>No</button>
+    <hr />
+    <div>
+      <img
+        src="https://tse2.mm.bing.net/th/id/OIP.arezqGrVeKUAmuKTaXGGEgHaEK?rs=1&pid=ImgDetMain&o=7&rm=3"
+        alt="google-logo"
+      />
+      <input
+        type="text"
+        placeholder="Search Google or type a URL"
+        id="search-google"
+      />
+    </div>
+  </body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .first-div{
+            display: grid;
+            grid-template-columns: 200px 75px;
+        }
+        .second-div{
+            margin-top: 20px;
+            display: grid;
+            grid-template-columns: 50px 1fr 75px;
+        }
+        .third-div{
+            margin-top: 20px;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            column-gap: 20px;
+            row-gap: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="first-div">
+        <div style="background-color: rgb(28, 99, 99);">200px</div>
+        <div style="background-color: rgb(117, 82, 28);">75px</div>
+    </div>
+
+    <div class="second-div">
+        <div style="background-color: rgb(28, 99, 99);">50px</div>
+        <div style="background-color: rgb(117, 82, 28);">1fr</div>
+        <div style="background-color: rgb(28, 99, 99);">75px</div>
+    </div>
+
+    <div class="third-div">
+        <div style="background-color: rgb(117, 82, 28);">Coluna 1</div>
+        <div style="background-color: rgb(117, 82, 28);">Coluna 1</div>
+        <div style="background-color: rgb(117, 82, 28);">Coluna 1</div>
+        <div style="background-color: rgb(117, 82, 28);">Coluna 1</div>
+        <div style="background-color: rgb(117, 82, 28);">Coluna 1</div>
+        <div style="background-color: rgb(117, 82, 28);">Coluna 1</div>
+        <div style="background-color: rgb(117, 82, 28);">Coluna 1</div>
+        <div style="background-color: rgb(117, 82, 28);">Coluna 1</div>
+    </div>
+</body>
+</html>
