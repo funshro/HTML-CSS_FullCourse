@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Discord</title>
+    </head>
+    <style>
+        body{
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        p{
+            margin: 0;
+        }
+
+        .sidebar-photos{
+            width: 65px;
+            background-color: rgb(26, 26, 26);
+
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            left: 0;
+        }
+
+        .profiles{
+            padding: 10px;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        img{
+            width: 50px;
+            height: 50px;
+            object-fit: cover;
+            border-radius: 50%;
+            cursor: pointer;
+
+            margin-top: 5px;
+        }
+
+        /*Segunda sidebar css*/
+        .sidebar-info{
+            width: 220px;
+            background-color: rgb(73, 73, 73);
+            padding: 20px;
+            
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            left: 65px;
+
+        }
+        .title{
+            margin-bottom: 20px;
+
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .title p:first-child{
+            color: #fff;
+            font-size: 14px;
+            cursor: pointer;
+        }
+        .title p:last-child{
+            color: rgb(167, 167, 167);
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .categoria-itens{
+            color: rgb(167, 167, 167);
+            display: flex;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        .categoria-itens p:last-child{
+            margin-left: 10px;
+        }
+    </style>
+    <body>
+        <!--Sidebar 1-->
+        <div class="sidebar-photos">
+            <div class="profiles">
+                <div>
+                    <img src="https://tse3.mm.bing.net/th/id/OIP.GjuMuHQalhy3yGh_HOPYqwHaGg?rs=1&pid=ImgDetMain&o=7&rm=3" alt="">
+                </div>
+                <div>
+                    <img src="https://th.bing.com/th/id/OIP.3ZLw4NpU4RyEyTiXjRJ3EwHaLH?o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3" alt="">
+                </div>
+                <div>
+                    <img src="https://tse1.mm.bing.net/th/id/OIP.fhKo0qiBtSF2dhmh5YKNdgHaE8?rs=1&pid=ImgDetMain&o=7&rm=3" alt="">
+                </div>
+                <div>
+                    <img src="https://thumbs.dreamstime.com/b/realistic-jaguar-dark-background-generative-ai-illustration-284103798.jpg" alt="">
+                </div>
+                <div>
+                    <img src="https://tse3.mm.bing.net/th/id/OIP.0dFVV4Rnt8PVxjtLRcZZgQHaEK?rs=1&pid=ImgDetMain&o=7&rm=3" alt="">
+                </div>
+                <div>
+                    <img src="https://tse1.mm.bing.net/th/id/OIP.a7JeEqFwy-RJD-d2LsbPUAHaE8?rs=1&pid=ImgDetMain&o=7&rm=3" alt="">
+                </div>
+            </div>
+        </div>
+
+        <!--Sidebar 1-->
+        <div class="sidebar-info">
+            <div class="title">
+                <p>INFO</p>
+                <p>+</p>
+            </div>
+            <div class="itens">
+                <div class="categoria-itens">
+                    <p>#</p>
+                    <p>New-videos</p>
+                </div>
+                <div class="categoria-itens">
+                    <p>#</p>
+                    <p>New-videos</p>
+                </div>
+                <div class="categoria-itens">
+                    <p>#</p>
+                    <p>New-videos</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
