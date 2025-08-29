@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nested Flexbox</title>
+    <style>
+        .flexbox{
+            display: flex;
+        }
+        .item-1{
+            color: #fff;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .div-p{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        .unique-row{
+            margin-top: -10px;
+        }
+    </style>
+</head>
+<body>
+    <!--Primeiro item-->
+    <div class="flexbox">
+        <div class="item-1" style="background-color: lightpink; width: 100px;">
+            <span style="background-color: black;">item1</span>
+        </div>
+        <div style="background-color: lightblue; width: 200px; padding: 20px 0px;">
+        </div>
+    </div>
+    <hr>
+
+    <!--Segundo item-->
+    <div class="flexbox">
+        <div style="background-color: lightpink; width: 100px;">
+
+        </div>
+        <div style="background-color: lightblue; width: 200px; height: 100px;">
+            <div class="unique-row">
+                <p>Row1</p>
+            </div>
+            <div class="div-p">
+                <p style="background-color: black; color: #fff; margin: 0;">Row 2</p>
+                <p style="background-color: black; color: #fff; margin: 0;">Row2</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

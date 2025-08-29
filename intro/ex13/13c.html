@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+      p {
+        font-family: Roboto, Arial;
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+
+      .all-inboxes {
+        flex: 1;
+        max-width: 450px;
+
+        box-shadow: 1px 1px 6px rgba(0, 0, 0, .3);
+        padding: 15px 0px 20px 15px;
+      }
+
+      .all-inboxes-title{
+        color: rgb(94, 91, 91);
+        margin-bottom: 20px;
+        font-size: 15px;
+        font-weight: 500;
+      }
+
+      /*Propriedade geral da boxes*/
+      .boxes{
+        display: flex;
+        flex-direction: column;
+
+      }
+
+      .cat-icon img {
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+        object-fit: cover;
+      }
+
+      /*caixas individuais*/
+      .cat-email{
+        display: flex;
+        margin-top: 10px;
+        margin-bottom: 20px;
+      }
+      .cat-info{
+        margin-left: 20px;
+      }
+      .nome-hours{
+        display: flex;
+        justify-content: space-between;
+      }
+      .nome-hours p:first-child{
+        font-weight: bold;
+        font-size: 19px;
+      }
+
+      .nome-hours p:last-child{
+        color: rgb(94, 91, 91);
+      }
+      .description{
+        margin-top: 3px;
+        line-height: 22px;
+      }
+      .description p:first-child{
+        font-weight: bold;
+        font-size: 16px;
+      }
+
+      
+    </style>
+  </head>
+  <body>
+    <div class="all-inboxes">
+      <p class="all-inboxes-title">ALL INBOXES</p>
+      <div class="boxes">
+        <!--Primeiro email-->
+        <div class="cat-email">
+          <div class="cat-icon">
+            <img
+              src="https://th.bing.com/th/id/R.accf354f6bc40a246191c9036a76c3f5?rik=YhEqn5yttYT%2fDQ&pid=ImgRaw&r=0"
+              alt=""
+            />
+          </div>
+          <div class="cat-info">
+            <div class="nome-hours">
+              <p>Chewy Promotions</p>
+              <p>4:58 PM</p>
+            </div>
+            <div class="description">
+              <p>Biggest sales of the year</p>
+              <p>Hey there! We're writing to tell you about our...</p>
+            </div>
+          </div>
+        </div>
+        <!--Segundo email-->
+        <div class="cat-email">
+          <div class="cat-icon">
+            <img
+              src="https://tse3.mm.bing.net/th/id/OIP.9n9UtbD4BTgRB3n68PpIFAHaE7?rs=1&pid=ImgDetMain&o=7&rm=3"
+              alt=""
+            />
+          </div>
+          <div class="cat-info">
+            <div class="nome-hours">
+              <p>Best Buy</p>
+              <p>12:32 PM</p>
+            </div>
+            <div class="description">
+              <p>Yout Best Buy eReceipt</p>
+              <p>Thank you for shopping at Best Buy, here is...</p>
+            </div>
+          </div>
+        </div>
+        <!--Terceiro email-->
+        <div class="cat-email">
+          <div class="cat-icon">
+            <img
+              src="https://th.bing.com/th/id/R.74fabd2f861acecc512cb544f5882c53?rik=ntCCeXzLemolzA&riu=http%3a%2f%2fwww.mercafauna.com%2ffotos%2fanimales%2f134_anas_platyrhynchos_domesticus02.jpg&ehk=vOX7oHENBlBYTjL8W8OwbBAaz%2fqrG7YbMVTsOJ5xPZc%3d&risl=&pid=ImgRaw&r=0"
+              alt=""
+            />
+          </div>
+          <div class="cat-info">
+            <div class="nome-hours">
+              <p>Netflix</p>
+              <p>9:00 AM</p>
+            </div>
+            <div class="description">
+              <p>Here's what's coming soon to Netflix</p>
+              <p>Brand new movies and shows, old favorites...</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </body>
+</html>
