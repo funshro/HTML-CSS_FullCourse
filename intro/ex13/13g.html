@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Twitter</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+      p {
+        font-family: Roboto, Arial;
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+
+      /*Informações gerais*/
+      .tweet{
+        display: grid;
+        grid-template-columns: 1fr 4fr;
+        max-width: 550px;
+        padding: 10px;
+      }
+
+      /*Informações específicas*/
+      .profile-picture img {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        object-fit: cover;
+      }
+      .info{
+        display: grid;
+        grid-template-rows: 30px 70px;
+      }
+
+      .title{
+        display: flex;
+      }
+
+      .title p:first-child{
+        font-weight: bold;
+        font-size: 18px;
+      }
+
+      .title p:last-child{
+        color: gray;
+        font-size: 18px;
+        margin-left: 5px;
+      }
+
+      .link{
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+        border: 1px solid gray;
+        border-radius: 20px;
+        overflow: hidden;
+      }
+
+      .divulgacao{
+        background-color: gray;
+
+      }
+
+      .link-description{
+        padding: 15px;
+      }
+
+      .link-description p:first-child{
+        color: gray;
+        margin-bottom: 10px;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="tweet">
+      <div class="profile-picture">
+        <img
+          src="https://th.bing.com/th/id/R.74fabd2f861acecc512cb544f5882c53?rik=ntCCeXzLemolzA&riu=http%3a%2f%2fwww.mercafauna.com%2ffotos%2fanimales%2f134_anas_platyrhynchos_domesticus02.jpg&ehk=vOX7oHENBlBYTjL8W8OwbBAaz%2fqrG7YbMVTsOJ5xPZc%3d&risl=&pid=ImgRaw&r=0"
+          alt=""
+        />
+      </div>
+      <div class="info">
+        <div class="title">
+          <p>supersimple.dev</p>
+          <p>@SuperSimpleDev</p>
+        </div>
+        <div class="description">
+          <p>What is backend web development? A complete overview. New video is up!</p>
+        </div>
+        <div class="link">
+          <div class="divulgacao"></div>
+          <div class="link-description">
+            <p>Youtube.com</p>
+            <p>Backend web development - a complete overview (2021)</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
